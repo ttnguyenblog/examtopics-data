@@ -1,0 +1,618 @@
+[
+  {
+    "topic_number": 1,
+    "question_number": 4,
+    "title": "Exam Terraform Associate 004 topic 1 question 4 discussion",
+    "answers": {
+      "A": "Automatic infrastructure upgrades",
+      "B": "In-place infrastructure upgrades",
+      "C": "Quicker infrastructure upgrades",
+      "D": "Less complex infrastructure upgrades"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385238-exam-terraform-associate-004-topic-1-question-4-discussion/",
+    "multiple_choice": false,
+    "question_text": "What is an advantage of immutable infrastructure?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "ykamal",
+        "content": "AI said its D.",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "Srikantha",
+        "content": "D. Less complex infrastructure upgrades is the correct advantage of immutable infrastructure.\nImmutable infrastructure treats servers, VMs, or resources as immutable (unchanging once deployed). To apply updates, fixes, or changes, you create entirely new instances from a known, versioned image or template and then replace (or decommission) the old ones, rather than modifying them in place. This contrasts with mutable infrastructure, where you update existing resources directly (e.g., via patches, config changes, or SSH).",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "mai_will",
+        "content": "Embora \"mais rápido\" possa parecer subjetivo, refere-se à previsibilidade e à velocidade de implementação inerentes ao modelo imutável. Em vez de acessar servidores e executar scripts de atualização que podem travar ou falhar, você simplesmente substitui a versão antiga por uma nova pré-configurada.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 2,
+    "title": "Exam Terraform Associate 004 topic 2 question 2 discussion",
+    "answers": {
+      "A": "terraform console",
+      "B": "terraform env",
+      "C": "terraform validate",
+      "D": "terraform test"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385599-exam-terraform-associate-004-topic-2-question-2-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which command lets you experiment with Terraform expressions?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "This is the correct command for experimenting with Terraform expressions.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 3,
+    "title": "Exam Terraform Associate 004 topic 2 question 3 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385610-exam-terraform-associate-004-topic-2-question-3-discussion/",
+    "multiple_choice": false,
+    "question_text": "You can install Community/Partner plugins using terraform init.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "terraform init does install Community and Partner plugins (providers).",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 4,
+    "title": "Exam Terraform Associate 004 topic 2 question 4 discussion",
+    "answers": {
+      "A": "Group a collection of Terraform configuration files that map to a single state file.",
+      "B": "Provision resources for public cloud infrastructure services.",
+      "C": "Interact with cloud provider APIs.",
+      "D": "Enforce security and compliance policies.",
+      "E": "Provision resources for on-premises infrastructure services."
+    },
+    "suggested_answer": "BCE",
+    "answer": "BCE",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385598-exam-terraform-associate-004-topic-2-question-4-discussion/",
+    "multiple_choice": true,
+    "question_text": "What functionality do providers offer in Terraform? (Choose three.)",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "B. Provision resources for public cloud infrastructure services.\nProviders (e.g., aws, azurerm, google) let you create, update, and delete resources in AWS, Azure, GCP, etc.\nC. Interact with cloud provider APIs.\nThis is the core job of a provider: it handles authentication, makes the actual API calls (create/read/update/delete), and translates Terraform’s declarative configuration into real infrastructure changes.\nE. Provision resources for on-premises infrastructure services.\nProviders also support self-hosted/on-prem platforms (e.g., vsphere for VMware, openstack, bare-metal providers, Kubernetes, databases, etc.). Terraform is not limited to public cloud.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 5,
+    "title": "Exam Terraform Associate 004 topic 2 question 5 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385606-exam-terraform-associate-004-topic-2-question-5-discussion/",
+    "multiple_choice": false,
+    "question_text": "Terraform can only manage resource dependencies if you set them explicitly with the depends_on argument.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "Terraform can (and usually does) manage resource dependencies automatically through implicit dependencies — no depends_on required in most cases.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 7,
+    "title": "Exam Terraform Associate 004 topic 2 question 7 discussion",
+    "answers": {
+      "A": "main",
+      "B": "vpc",
+      "C": "aws",
+      "D": "test"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385605-exam-terraform-associate-004-topic-2-question-7-discussion/",
+    "multiple_choice": false,
+    "question_text": "A resource block is shown in the Exhibit space of this page.\u003cbr/\u003eresource “aws_vpc” “main” {\u003cbr/\u003ename = “test”\u003cbr/\u003e}\u003cbr/\u003eWhat is the provider for this resource?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "C. aws\nThe provider for this resource is aws.\nHow Terraform identifies the provider\nIn a Terraform resource block, the syntax is always:\nhclresource \"\u003cRESOURCE_TYPE\u003e\" \"\u003cRESOURCE_NAME\u003e\" { ... }\n\nRESOURCE_TYPE = aws_vpc\nThe part before the first underscore (aws) tells Terraform which provider is responsible for this resource.\nThe part after the underscore (vpc) is the specific resource type offered by that provider.\nRESOURCE_NAME = main\nThis is just a local identifier (used for referencing the resource inside your configuration). It has nothing to do with the provider.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 9,
+    "title": "Exam Terraform Associate 004 topic 2 question 9 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385603-exam-terraform-associate-004-topic-2-question-9-discussion/",
+    "multiple_choice": false,
+    "question_text": "Terraform providers are always installed from the internet.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "B. False\nTerraform providers are not always installed from the internet. While the default behavior (when you run terraform init) is to download providers from the public Terraform Registry at registry.terraform.io (or a private registry), Terraform provides built-in support for offline / air-gapped installations through provider mirrors.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 10,
+    "title": "Exam Terraform Associate 004 topic 2 question 10 discussion",
+    "answers": {
+      "A": "Set the environment variable TF_VAR_log=TRACE.",
+      "B": "Set the environment variable TF_LOG=TRACE.",
+      "C": "Set the environment variable TF_LOG=PATH.",
+      "D": "Set verbose logging for each provider in your Terraform configuration."
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385601-exam-terraform-associate-004-topic-2-question-10-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to determine from which paths Terraform is loading the providers referenced in your *.tf files.\u003cbr/\u003eHow can you enable additional logging to see this information?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "B. Set the environment variable TF_LOG=TRACE.\nThis is the official, recommended way to enable detailed logging in Terraform so you can see exactly which filesystem paths it is searching for and loading providers from (including the plugin cache, filesystem mirrors, dev overrides, and any custom directories)",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 2,
+    "question_number": 14,
+    "title": "Exam Terraform Associate 004 topic 2 question 14 discussion",
+    "answers": {
+      "A": "Providers and modules",
+      "B": "Lock file",
+      "C": "State file",
+      "D": "Configuration files"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/402395-exam-terraform-associate-004-topic-2-question-14-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which of these is stored in the .terraform directory?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "A. Providers and modules\nThe hidden .terraform directory (created automatically by terraform init) is Terraform’s local cache for providers and modules.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 3,
+    "question_number": 2,
+    "title": "Exam Terraform Associate 004 topic 3 question 2 discussion",
+    "answers": {
+      "A": "terraform validate",
+      "B": "terraform workspace",
+      "C": "terraform import",
+      "D": "terraform init"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385597-exam-terraform-associate-004-topic-3-question-2-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which command must you run before you run a plan or apply for the first time?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "terraform init is the mandatory first command you must run in any new Terraform workspace (or after you add new providers/modules). It does three critical things before plan or apply can succeed:\n\nDownloads and installs all providers referenced in your *.tf files (populating the .terraform/providers/ cache).\nDownloads any child modules declared with module blocks.\nInitializes the backend (local by default) and creates the lock file .terraform.lock.hcl.\n\nWithout it, terraform plan or terraform apply will immediately fail with an error",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 3,
+    "question_number": 5,
+    "title": "Exam Terraform Associate 004 topic 3 question 5 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385593-exam-terraform-associate-004-topic-3-question-5-discussion/",
+    "multiple_choice": false,
+    "question_text": "You modified your local Terraform configuration and ran terraform plan to review the changes. Simultaneously, your teammate manually modified the infrastructure component you are working on.\u003cbr/\u003eSince you already ran terraform plan locally, the execution plan for terraform apply will be the same.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "B. False\nThe execution plan that terraform apply generates (and then executes) will not be the same as the one you saw from your earlier terraform plan.\nWhy the plans differ\n\nRefresh happens again\nBy default, both terraform plan and terraform apply perform a refresh before calculating the diff. This means Terraform queries the real infrastructure (via the provider) to update the in-memory state with current values.\nYour teammate’s manual change = drift\nBetween the time you ran terraform plan and when you run terraform apply, the live resource has changed. The refresh during apply will pick up that new reality, so the computed diff (what needs to be created/changed/destroyed) is now different.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 3,
+    "question_number": 12,
+    "title": "Exam Terraform Associate 004 topic 3 question 12 discussion",
+    "answers": {
+      "A": "None of these will return an error.",
+      "B": "There is a missing variable block.",
+      "C": "The state file does not match the current infrastructure.",
+      "D": "The code contains tabs for indentation instead of spaces."
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385587-exam-terraform-associate-004-topic-3-question-12-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which syntax check returns an error when you run terraform validate?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "Why \"B\" is the Answer\n\nIf your code references a variable—for example, using var.instance_type—but you haven't actually defined that variable using a variable \"instance_type\" {} block, the configuration is considered incomplete.\n\nTerraform cannot proceed because it doesn't know the type or constraints of that reference, so validate will catch this and throw an error.\n\nWhy the others are incorrect:\n\nC (State file mismatch): This is handled by terraform plan or terraform refresh. Validation doesn't look at the state file or your real-world resources at all.\n\nD (Tabs vs. Spaces): While the Terraform standard is two spaces, using tabs is not a syntax error. terraform fmt is the tool used to fix indentation, but validate won't fail because of it.\n\nA: Since B is a legitimate syntax/configuration error, A is incorrect.",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "markbotros",
+        "content": "Here’s why your explanation for A doesn’t hold up:\n\nterraform validate checks internal consistency, not just syntax.\nIf your configuration references a variable that is not declared anywhere, Terraform will raise an error during validation.\nWhile values can be provided at runtime (CLI, env vars, tfvars), the variable itself must still be declared with a variable block.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 4,
+    "question_number": 2,
+    "title": "Exam Terraform Associate 004 topic 4 question 2 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385073-exam-terraform-associate-004-topic-4-question-2-discussion/",
+    "multiple_choice": false,
+    "question_text": "Outside of the required_providers block, Terraform configurations always refer to providers by their local names.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "A. True\nIn Terraform, the required_providers block (inside the terraform {} block) is the only place where you ever reference a provider by its full source address and version constraint. Example:\nhclterraform {\n  required_providers {\n    aws = {\n      source  = \"hashicorp/aws\"\n      version = \"~\u003e 5.0\"\n    }\n  }\n}\nEverywhere else in the configuration — resource blocks, data sources, provider configuration blocks, provider meta-arguments, modules, etc. — Terraform uses only the local name (the key from required_providers, which defaults to the provider type if the block is omitted)",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "AZJunkie\n\t\t\t\n\t\t\t\tSrikantha",
+        "content": "Terraform may use:\nThe default provider name, or\nAn alias, if you configured one.\n\nhttps://developer.hashicorp.com/terraform/language/block/providerAlias is used when you need to define multiple provider blocks for the same provider",
+        "upvotes": "11",
+        "timestamp": ""
+      },
+      {
+        "author": "Srikantha",
+        "content": "Alias is used when you need to define multiple provider blocks for the same provider",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 4,
+    "question_number": 17,
+    "title": "Exam Terraform Associate 004 topic 4 question 17 discussion",
+    "answers": {
+      "A": "Count arguments",
+      "B": "Collection functions",
+      "C": "Local values",
+      "D": "Dynamic blocks"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385568-exam-terraform-associate-004-topic-4-question-17-discussion/",
+    "multiple_choice": false,
+    "question_text": "You want to define multiple data disks as nested blocks inside the resource block for a virtual machine.\u003cbr/\u003eWhat Terraform feature would help you define the blocks using the values in a variable?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "D. Dynamic blocks\nDynamic blocks are the exact Terraform feature designed for this use case: they let you generate repeating nested blocks (such as multiple data_disk, storage_data_disk, attached_disk, etc.) inside a single resource based on the contents of a variable.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 5,
+    "question_number": 4,
+    "title": "Exam Terraform Associate 004 topic 5 question 4 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385563-exam-terraform-associate-004-topic-5-question-4-discussion/",
+    "multiple_choice": false,
+    "question_text": "When you run terraform apply, the Terraform CLI will print output values from both the root module and any child modules.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "When you run terraform apply, the Terraform CLI only prints the output values defined in the root module. Outputs from child modules are not automatically displayed.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 6,
+    "question_number": 16,
+    "title": "Exam Terraform Associate 004 topic 6 question 16 discussion",
+    "answers": {
+      "A": "terraform plan -refresh-only",
+      "B": "terraform show -json",
+      "C": "terraform apply =lock=false",
+      "D": "terraform plan -target=state"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385539-exam-terraform-associate-004-topic-6-question-16-discussion/",
+    "multiple_choice": false,
+    "question_text": "What Terraform command always causes a state file to be updated with changes that might have been made outside of Terraform?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "Terraform Plan is the right answer as it shows the difference",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "BrutexLau\n\t\t\t\n\t\t\t\tSrikantha",
+        "content": "I don't think any of them are correct, since the State File is updated only with the `terraform apply` command, but option C contains an error; it should be `terraform apply -lock=false`.I would chose A because the changes are made outside the terraform and by applying terraform configuration the outside changes would be overwritten",
+        "upvotes": "11",
+        "timestamp": ""
+      },
+      {
+        "author": "Srikantha",
+        "content": "I would chose A because the changes are made outside the terraform and by applying terraform configuration the outside changes would be overwritten",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 6,
+    "question_number": 18,
+    "title": "Exam Terraform Associate 004 topic 6 question 18 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385538-exam-terraform-associate-004-topic-6-question-18-discussion/",
+    "multiple_choice": false,
+    "question_text": "The -refresh-only parameter will update your state file when used with terraform plan.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "markbotros",
+        "content": "A. True\n\nExplanation:\n\nThe -refresh-only flag tells Terraform to:\n\nCheck the real infrastructure (via provider APIs)\nCompare it with the current state file\nUpdate the state file to match reality if there are external changes\nBut not propose or apply configuration changes",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "Srikantha",
+        "content": "In the context of certification exams (like the HashiCorp Terraform Associate), when they ask if the -refresh-only parameter \"will update your state file,\" they are referring to the functionality of the refresh-only mode.\n\nWhile the plan phase is just a preview, the specific purpose of using that flag is to perform a state-only update. If you were to run a standard terraform apply (without the flag), Terraform would try to undo the manual changes to match your code. By using -refresh-only, you are telling Terraform to keep the manual changes and just update the state file to acknowledge them.",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "yhalim",
+        "content": "The -refresh-only parameter does not update the state file when used with the terraform plan command. Instead, it allows you to preview the changes to the Terraform state file that would occur if you were to run terraform apply -refresh-only. The state file itself is only updated when you run the terraform apply -refresh-only command.",
+        "upvotes": "2",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 6,
+    "question_number": 23,
+    "title": "Exam Terraform Associate 004 topic 6 question 23 discussion",
+    "answers": {
+      "A": "discouraged",
+      "B": "mandatory",
+      "C": "impossible",
+      "D": "optional"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/402414-exam-terraform-associate-004-topic-6-question-23-discussion/",
+    "multiple_choice": false,
+    "question_text": "It is _________ to change the Terraform backend from the default local backend to a different one after performing your first terraform apply.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "Gemini said\nThe correct answer is D. optional.\n\nWhy it is optional\n\nYou are never forced to change your backend, but it is a best practice for teams or production environments.\n\nInitial State: When you run your first terraform apply, Terraform creates a terraform.tfstate file on your local disk (the local backend).\n\nThe Transition: You can move to a remote backend (like AWS S3, Azure Blob Storage, or Terraform Cloud) at any point in the project lifecycle. This process is called migration.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 7,
+    "question_number": 4,
+    "title": "Exam Terraform Associate 004 topic 7 question 4 discussion",
+    "answers": {
+      "A": "Run terraform import to reflect the changes in Terraform state.",
+      "B": "Manually update the state file to remove the destroyed resources.",
+      "C": "Remove the resource definition from your file and run terraform apply -refresh-only.",
+      "D": "The change will happen automatically during the next terraform apply."
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385534-exam-terraform-associate-004-topic-7-question-4-discussion/",
+    "multiple_choice": false,
+    "question_text": "If you manually destroy resources within your infrastructure, what is the best practice for reflecting this change in Terraform?",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "yhalim",
+        "content": "Why C is Correct:\n\n1) Remove the Resource Definition:\nIf the resource has been manually destroyed, you should remove its definition from your Terraform configuration files (e.g., .tf files).\nThis tells Terraform that the resource is no longer part of the desired state.\n\n2) Run terraform apply -refresh-only:\nThis command updates the Terraform state file to reflect the current state of your infrastructure without making any changes to resources.\nSince the resource definition has been removed, Terraform will remove the corresponding resource from the state file.",
+        "upvotes": "1",
+        "timestamp": ""
+      },
+      {
+        "author": "Zam88",
+        "content": "correct answer is: C. Remove the resource definition from your file and run terraform apply -refresh-only.",
+        "upvotes": "2",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 7,
+    "question_number": 5,
+    "title": "Exam Terraform Associate 004 topic 7 question 5 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385533-exam-terraform-associate-004-topic-7-question-5-discussion/",
+    "multiple_choice": false,
+    "question_text": "When a check block’s assertion fails, Terraform blocks the current operation from executing.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "The correct answer is B. False.\nWhen a check block’s assertion fails, Terraform reports a warning (including the error_message you defined) but continues executing the current operation (plan or apply) without blocking it.\nThis is the only type of custom validation in Terraform that is intentionally non-blocking. It runs as the final step of a plan or apply (after resources have been planned or provisioned) and is meant for ongoing health/monitoring checks rather than strict enforcement.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 8,
+    "question_number": 2,
+    "title": "Exam Terraform Associate 004 topic 8 question 2 discussion",
+    "answers": {
+      "A": "Sentinel policy checks",
+      "B": "Resource drift detection",
+      "C": "Estimate infrastructure cost",
+      "D": "Check block validation",
+      "E": "Terraform test execution"
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385527-exam-terraform-associate-004-topic-8-question-2-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which of the following does HCP Terraform perform during a health assessment for a workspace? (Choose two.)",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "he correct answers are B. Resource drift detection and D. Check block validation.\n\nWhat is an HCP Terraform Health Assessment?\n\nA health assessment is a background process in HCP Terraform (formerly Terraform Cloud) that monitors your infrastructure for \"correctness\" without you having to manually trigger a plan. It is specifically designed to catch two things:\n\nB. Resource drift detection: It checks if the actual infrastructure has been changed outside of Terraform (e.g., someone manually edited a setting in the AWS Console).\n\nD. Check block validation: It executes any check blocks you have defined in your code. This is used to verify functional status, such as whether a website is returning a 200 OK status or if a certificate is nearing expiration.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "topic_number": 8,
+    "question_number": 4,
+    "title": "Exam Terraform Associate 004 topic 8 question 4 discussion",
+    "answers": {
+      "A": "True",
+      "B": "False"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/hashicorp/view/385525-exam-terraform-associate-004-topic-8-question-4-discussion/",
+    "multiple_choice": false,
+    "question_text": "You can configure multiple cloud blocks in your Terraform configuration to connect your workspace to both HCP Terraform and your Terraform Enterprise instance.",
+    "answer_images": null,
+    "question_images": null,
+    "discussion": [
+      {
+        "author": "Srikantha",
+        "content": "The correct answer is B. False.\nYou can only provide one cloud block per Terraform configuration.\nThe cloud block (nested inside the top-level terraform block) is how you connect a workspace to either HCP Terraform or a Terraform Enterprise instance. It is not repeatable — Terraform explicitly forbids multiple cloud blocks in the same configuration.",
+        "upvotes": "1",
+        "timestamp": ""
+      }
+    ]
+  }
+]
