@@ -3553,8 +3553,8 @@
       "C": "Write Terraform configuration for the existing VMs.",
       "D": "Run the terraform import-gcp command."
     },
-    "suggested_answer": "C",
-    "answer": "C",
+    "suggested_answer": "BC",
+    "answer": "BC",
     "link": "https://www.examtopics.com/discussions/hashicorp/view/312492-exam-terraform-associate-003-topic-1-question-24-discussion/",
     "multiple_choice": false,
     "question_text": "You have provisioned some virtual machines (VMs) on Google Cloud Platform (GCP) using the gcloud command line tool. However, you are standardizing with Terraform and want to manage these VMs using Terraform instead.\u003cbr/\u003eWhat are the two things you must do to achieve this? (Choose two.)",
