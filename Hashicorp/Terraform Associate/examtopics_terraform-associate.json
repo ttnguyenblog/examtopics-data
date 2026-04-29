@@ -11037,8 +11037,8 @@
       "C": "Understanding API interactions with a hosted service.",
       "D": "Managing resources and data sources based on an API."
     },
-    "suggested_answer": "A",
-    "answer": "A",
+    "suggested_answer": "B",
+    "answer": "B",
     "link": "https://www.examtopics.com/discussions/hashicorp/view/315490-exam-terraform-associate-003-topic-1-question-96-discussion/",
     "multiple_choice": false,
     "question_text": "What is a Terraform provider not responsible for?",
