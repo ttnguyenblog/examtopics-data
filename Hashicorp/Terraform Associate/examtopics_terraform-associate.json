@@ -17688,45 +17688,7 @@
       }
     ]
   },
-  {
-    "topic_number": 1,
-    "question_number": 176,
-    "title": "Exam Terraform Associate topic 1 question 176 discussion",
-    "answers": {
-      "A": "//IMG//",
-      "B": "//IMG//"
-    },
-    "suggested_answer": "B",
-    "answer": "B",
-    "link": "https://www.examtopics.com/discussions/hashicorp/view/82190-exam-terraform-associate-topic-1-question-176-discussion/",
-    "multiple_choice": false,
-    "question_text": "In Terraform HCL, an object type of object({ name=string, age=number }) would match this value:\u003cbr/\u003eA.\u003cbr/\u003e//IMG//\u003cbr/\u003eB.\u003cbr/\u003e//IMG//\u003cbr/\u003e",
-    "answer_images": null,
-    "question_images": [
-      "https://www.examtopics.com/assets/media/exam-media/04279/0009600001.jpg",
-      "https://www.examtopics.com/assets/media/exam-media/04279/0009600002.jpg"
-    ],
-    "discussion": [
-      {
-        "author": "cankayahmet",
-        "content": "what a stupid question!",
-        "upvotes": "10",
-        "timestamp": ""
-      },
-      {
-        "author": "dani88ge",
-        "content": "age=number -\u003e fifty two is not a number",
-        "upvotes": "6",
-        "timestamp": ""
-      },
-      {
-        "author": "gekkehenk",
-        "content": "Age = 52 \nOnly number.",
-        "upvotes": "2",
-        "timestamp": ""
-      }
-    ]
-  },
+  
   {
     "topic_number": 1,
     "question_number": 177,
