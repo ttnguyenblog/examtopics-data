@@ -13598,10 +13598,10 @@
       "D": "State file",
       "E": "Terraform code"
     },
-    "suggested_answer": "A",
-    "answer": "A",
+    "suggested_answer": "AD",
+    "answer": "AD",
     "link": "https://www.examtopics.com/discussions/hashicorp/view/79141-exam-terraform-associate-topic-1-question-121-discussion/",
-    "multiple_choice": false,
+    "multiple_choice": true,
     "question_text": "Which of the following does terraform apply change after you approve the execution plan? (Choose two.)\u003cbr/\u003e",
     "answer_images": null,
     "question_images": null,
