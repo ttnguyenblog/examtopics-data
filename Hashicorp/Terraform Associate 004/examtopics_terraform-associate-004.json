@@ -492,8 +492,8 @@
       "C": "impossible",
       "D": "optional"
     },
-    "suggested_answer": "A",
-    "answer": "A",
+    "suggested_answer": "D",
+    "answer": "D",
     "link": "https://www.examtopics.com/discussions/hashicorp/view/402414-exam-terraform-associate-004-topic-6-question-23-discussion/",
     "multiple_choice": false,
     "question_text": "It is _________ to change the Terraform backend from the default local backend to a different one after performing your first terraform apply.",
